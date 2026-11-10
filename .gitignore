@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.local
+downloads/
+cache/
+answers*.jsonl
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+
+### Ignore only the file, keep other things in env/
+#env/.env
+
+env/*
+!env/.env.example
