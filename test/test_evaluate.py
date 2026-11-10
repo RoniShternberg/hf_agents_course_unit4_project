@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 load_dotenv(Path("env") / ".env")
+# remove this later
+load_dotenv()
 
 # WRONG: Will likely 404
 # hf_hub_download(repo_id="gaia-benchmark/GAIA", filename="7bd855d8-463d-4ed5-93ca-5fe35145f733.xlsx", repo_type="dataset")
